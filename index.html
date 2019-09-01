@@ -1,0 +1,23 @@
+<html>
+  <head>
+  <style>
+
+  body {
+  background-image: url("ezgif-2-645984cb0a79.gif");
+  }
+  </style>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+  </head>
+  <body>
+    <div id="console"></div>
+    <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+    <button id="class-a" style="background-color:yellow">Add A</button>
+    <button id="class-b" style="background-color:green">Add B</button>
+    <button id="class-c" style="background-color:red">Add C</button>
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+  </body>
+</html>
